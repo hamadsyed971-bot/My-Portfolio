@@ -1,0 +1,168 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+            padding: 30px 15px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Top Header Div Box */
+        .header-box {
+            background-color: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-top: 5px solid #2563eb;
+            border-radius: 12px;
+            padding: 30px 20px;
+            text-align: center;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #2563eb;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .header-box h1 {
+            font-size: 28px;
+            color: #0f172a;
+            margin-bottom: 5px;
+        }
+
+        .tagline {
+            font-size: 15px;
+            color: #2563eb;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .social-links a {
+            color: #475569;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0 8px;
+            padding: 5px 12px;
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .social-links a:hover {
+            background-color: #2563eb;
+            color: #ffffff;
+            border-color: #2563eb;
+        }
+
+        /* Standard Topic Div Box */
+        .box {
+            background-color: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 22px 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+        }
+
+        .box h2 {
+            font-size: 20px;
+            color: #0f172a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        /* Grid for What I Do Cards */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .service-card {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .service-card h3 {
+            font-size: 16px;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .service-card p {
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        /* Projects Layout */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .project-card {
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .project-card h3 {
+            font-size: 16px;
+            color: #0f172a;
+            margin-bottom: 6px;
+        }
+
+        .project-card p {
+            font-size: 13px;
+            color: #475569;
+            margin-bottom: 10px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e0e7ff;
+            color: #3730a3;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+
+        /* Contact Details */
+        .contact-list p {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        /* Footer */
+        .footer-box {
+            text-align: center;
+            font-size: 13px;
+            color: #64748b;
+            padding-top: 10px;
+        }
+   
